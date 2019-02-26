@@ -1,6 +1,6 @@
 #launchpad-mini-browser
 This is a browser port from https://www.npmjs.com/package/launchpad-mini
-Usage is the same, execpt there is an async connect method to get the Launchpad running
+Usage is the same, but no disconnect function.
 ```
 const pad = new Launchpad();
 await pad.connect();
